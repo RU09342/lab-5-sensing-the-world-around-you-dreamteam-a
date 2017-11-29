@@ -1,22 +1,28 @@
-# PCB Design
-Since we are getting closer to building realistic systems in your final projects, you will most likely need to build a PCB so that you are not worrying about carrying around a rat's nest of wires. Really, the basics of PCB design are quite simple: make a schematic to lay out what components need to be connected to each other, then import the schematic to a PCB designer and physically connect the components together. Where the difficulty comes in is in the tedium. For low-frequency, low power applications, you should be able to get away with pretty much anything you do. 
+### Jake Fraser and Tomas Uribe
 
-As the semester progresses we will be dealing with more applications which will require you to build boards with higher signal integrity and power carrying capabilities, but we will cross that bridge when we get to it.
+## Lab Exercise 5: Sensing the World Around You
+## PCB Design
+## MSP430FR2311 Breakout
 
-## Task
-You will be required to design a simple breakout board for the MSP430FR2311. This is one of the simplest processors you have to design for, requiring you to only place a few capacitors to get it to work. You might think wait, but isn't there all that stuff up at the top of the board? Don't we need to also include that? All of those parts are part of the programmer/debugger and it is very easy to program your chip using just a few wires.
+## Function
+This printed circuit board is to be used as a breakout for the MSP430FR2311 microprocessor. This board has no purpose other than the
+ fact that it is a basically a breadboard usable version of the MSP430FR2311. Using pin headers, bulk and bypass capacitors, along with a pull up resistor,
+ as its reset circuitry, using this board allows the user to place and program this processor directly onto a breadboard. This will allow for 
+ a multitude of projects and research to be conducted, using this board for mostly testing purposes, and not on a final product. Screenshots of this PCB can be seen in both the front.PNG and back.png files located in this repository.
 
-## Deliverables 
-This folder should contain the following files:
-* BOARD.sch
-* BOARD.pcb
-* GERBERS (Folder)
+## How it works
+ When placed on a breadboard, the test, reset, power, and ground pins can be connected directly to the development board version of this processor. When
+ doing so, the processor can be programmed through the computer, onto the launchpad, and then onto the breakout. This allows for ease of access to the processor
+ when ding testing, debugging, and prototyping. 
 
-The GERBERS folder should contain the Gerber files as listed in the ECE Department ordering guides for PCBs.
+## Bill of Materials
+In order to build this printed circuit board, a few build materials must be acquired. Bulk and bypass capacitors and a resistor are all used in reset and support circuitry. 
+ Appropriate values can be seen below. Pin headers are used to connect to the breadboard and for easy access to each pin of the processor. 
 
-The README for this folder should also contain the Bill of Materials as well as (if possible) a link to a Digikey/Mouser cart that contains the parts you would want for this board.
-
-## Board Details
-Your board should be a 2 layer board which can conveniently fit on a breadboard and contains the required passives for this processor to work in a standalone implementation. This means that the board should contain bypass capacitors, and the proper reset circuitry as laid out in the MSP430FR2311 datasheet. As per PCBWAY manufacturing restrictions, you should not have any traces smaller than 6mil, and your board should be smaller than 4 inches per side (which is maybe 4 times larger than your board should be.)
-
-It will be up to you to determine the capacitor brands, values, and sizes, as well as which package you want for your MSP430FR2311.
+-U2: MSP430FR2311
+-C1: 10 uF Capacitor, surface mount (CAP_0805) 
+-C2: 100 nF Capacitor, surface mount (CAP_0805)
+-C3: 100 nF Capacitor, surface mount (CAP_0805)
+-R1: 47k Ohm resistor, surface mount (RES_0805)
+-J3: 8 through hole pin header
+-J4: 8 through hole pin header
