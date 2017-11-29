@@ -35,21 +35,22 @@ The code must be referenced in a main.c file which will be uploaded to the MSP43
  
 ##Circuit  
 The Circuit used for this lab can be seen below 
- 
- FIGURE
+
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-dreamteam-a/blob/master/Sensors%20and%20Signal%20Conditioning/All%20three%20circuits.jpg)
  
 ##Demonstration
 The following section will highlight the voltage readings over UART taken from the photoresistor, temperature sensor, and phototransistor respectively
 
 Photoresistor 
 
-FIGURE
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-dreamteam-a/blob/master/Sensors%20and%20Signal%20Conditioning/Photoresistor%20GIF.gif)
 
-Temperature Sensor 
-FIGURE 
+Temperature Sensor
+ 
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-dreamteam-a/blob/master/Sensors%20and%20Signal%20Conditioning/Temperature%20Sensor%20GIF.gif)
 
 Phototransistor 
 
-FIGURE
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-dreamteam-a/blob/master/Sensors%20and%20Signal%20Conditioning/Phototransistor%20GIF.gif)
  
  

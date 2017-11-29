@@ -45,11 +45,10 @@ The following section will highlight the voltage readings over UART taken from t
 
 Photoresistor 
 
-FIGURE
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-dreamteam-a/blob/master/Visualizing%20Data/Photoresistor%20GIF.gif)
 
 Temperature Sensor 
-FIGURE 
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-dreamteam-a/blob/master/Visualizing%20Data/Temperature%20Sensor%20GIF.gif)
 
 Phototransistor 
-
-FIGURE
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-dreamteam-a/blob/master/Visualizing%20Data/Phototransistor%20GIF.gif)
