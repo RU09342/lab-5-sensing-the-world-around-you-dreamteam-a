@@ -8,7 +8,9 @@
 This printed circuit board is to be used as a breakout for the MSP430FR2311 microprocessor. This board has no purpose other than the
  fact that it is a basically a breadboard usable version of the MSP430FR2311. Using pin headers, bulk and bypass capacitors, along with a pull up resistor,
  as its reset circuitry, using this board allows the user to place and program this processor directly onto a breadboard. This will allow for 
- a multitude of projects and research to be conducted, using this board for mostly testing purposes, and not on a final product. Screenshots of this PCB can be seen in both the front.PNG and back.png files located in this repository.
+ a multitude of projects and research to be conducted, using this board for mostly testing purposes, and not on a final product. The PCB can be seen below 
+ 
+ FIGUREs
 
 ## How it works
  When placed on a breadboard, the test, reset, power, and ground pins can be connected directly to the development board version of this processor. When
