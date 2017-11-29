@@ -40,7 +40,7 @@ In order to use the LCD, it is important to reference the LCD driver at the begi
 Therefore, the only thing the user needs to do is reference the Sensors.c file in the main.c file. This main file will be uploaded to the MSP430. Use Pin P8.7 as the sensor output, and the program should keep track of everything else.
  The end product should consist of the user watching the current voltage output of the sensor being displayed on the LCD.
  
-##Demonstration
+## Demonstration
 The following section will highlight the voltage readings over UART taken from the photoresistor, temperature sensor, and phototransistor respectively
 
 Photoresistor 

@@ -33,12 +33,14 @@ The code must be referenced in a main.c file which will be uploaded to the MSP43
  The end product should consist of the user watching values scroll by on any UART interface which represent the current output of the sensor. 
  The user can watch the values change as the they manipulate the sensor using real world actions. 
  
-##Circuit  
+## Circuit 
+ 
 The Circuit used for this lab can be seen below 
 
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-dreamteam-a/blob/master/Sensors%20and%20Signal%20Conditioning/All%20three%20circuits.jpg)
- 
-##Demonstration
+
+## Demonstration
+
 The following section will highlight the voltage readings over UART taken from the photoresistor, temperature sensor, and phototransistor respectively
 
 Photoresistor 
