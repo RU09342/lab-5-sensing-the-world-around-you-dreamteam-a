@@ -24,9 +24,15 @@ In order to build this printed circuit board, a few build materials must be acqu
  Appropriate values can be seen below. Pin headers are used to connect to the breadboard and for easy access to each pin of the processor. 
 
 -U2: MSP430FR2311
+
 -C1: 10 uF Capacitor, surface mount (CAP_0805) 
+
 -C2: 100 nF Capacitor, surface mount (CAP_0805)
+
 -C3: 100 nF Capacitor, surface mount (CAP_0805)
+
 -R1: 47k Ohm resistor, surface mount (RES_0805)
+
 -J3: 8 through hole pin header
+
 -J4: 8 through hole pin header
